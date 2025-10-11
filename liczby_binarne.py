@@ -44,3 +44,14 @@ tablica = []
 for i in range(1000):
     tablica.append((i, input("binarna do podania: ")))
 sortowanie_po_len(tablica)
+
+
+
+
+
+
+
+
+
+
+
