@@ -40,7 +40,7 @@ def nww_z_wartosci_enharmonicznej(dzwiek1, dzwiek2):
         if len(dzwiek) == 2:
             # baza i oktawa
             oktawa = int(dzwiek[1])
-            wynik_dzwiek = baza + 12 * oktawa
+            wynik_dzwiek = baza + (12 * oktawa)
         elif len(dzwiek) == 3:
             # baza modyfikatopr oktawa
             if dzwiek[1] == '#':
